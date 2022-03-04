@@ -71,7 +71,7 @@ for row in rows:
 
 averagePrice, yearTotalPrice = 0, 0
 counter, counter_1, counter_2, counter_3, counter_4, counter_5, counter_6, counter_7, counter_8 = 0, 0, 0, 0, 0, 0, 0, 0, 0
-dollarStat, euroStat = [60.9579, 67.0349, 58.3529, 62.7091, 64.7362, 72.1464, 73.6541], [67.7767, 74.231, 65.9014, 73.9511, 72.5021, 82.4488, 87.1877]
+dollarStat = [60.9579, 67.0349, 58.3529, 62.7091, 64.7362, 72.1464, 73.6541]
 dollarActual = float(DollarParse().replace(',', '.'))
 
 
