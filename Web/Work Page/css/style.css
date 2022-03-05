@@ -83,7 +83,7 @@ a {
     margin-left: 3.8vw;
 }
 
-.left-content-box-btn-1 {
+.left-content-box-btn {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     cursor: pointer;
@@ -94,7 +94,9 @@ a {
     border-radius: 15px;
 }
 
-.left-content-box-btn-2 {
+select {
+    color: #000;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     cursor: pointer;
@@ -106,6 +108,7 @@ a {
 }
 
 .content-box-description {
+    line-height: 25px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -126,6 +129,7 @@ a {
 }
 
 .right-content-box-result {
+    line-height: 25px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
