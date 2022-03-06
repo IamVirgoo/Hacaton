@@ -118,7 +118,7 @@ def main(name):
 
     averagePrice /= counter
     yearTotalPrice /= counter
-    return averagePrice, yearTotalPrice
+    return averagePrice
     '''print(f"Среднее значение цены одного продукта <{name}> за год равно <{averagePrice}$>")
     print(f"Вероятное значение цены за данное количество продукта <{name}> за год равно <{yearTotalPrice + (yearTotalPrice * 0.15)}$>")'''
 
