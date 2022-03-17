@@ -23,7 +23,21 @@
 </section>
 <section>
 	<div class="conteiner">
-		<div class="hight-content"></div>
+		<div class="hight-content">
+			<div class="about">
+				<h1 class="about-title">About Us</h1>
+				<div class="about-description">
+					<div class="description-logo"></div>
+					<p class="description-text">Lorem ipsum dolor sit amet,<br>consectetuer adipiscing elit<br>Aenean commodo ligula eget<br>dolor. Aenean massa. Cum sociis<br>natoque penatibus etLorem<br>ipsum dolor sit amet,<br>consectetuer adipiscing elit.<br>Aenean commodo ligula eget<br>dolor. Aenean massa.</p>
+				</div>
+			</div>
+		</div>
+		<div class="content-box">
+            <h1 class="content-box-title">Попробуйте наш новый сервис</h1>
+            <h2 class="content-box-second-title">Специально для бизнесса</h2>
+            <!-- svelte-ignore a11y-invalid-attribute -->
+            <a class="content-box-btn" href="">Try it!</a>
+        </div>
 	</div>
 </section>
 <section>
