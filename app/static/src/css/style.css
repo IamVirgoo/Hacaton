@@ -1,0 +1,40 @@
+body {
+    background-color: #162831;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+header {
+    margin-top: 30px;
+}
+
+hr {
+    opacity: 0.5;
+    border: 0.5px solid #FFFFFF;
+}
+
+.header-title {
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.nav > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 70px;
+}
