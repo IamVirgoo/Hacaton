@@ -42,6 +42,43 @@
 </section>
 <section>
 	<div class="container">
-		<div class="team-content"></div>
+		<div class="team-content">
+			<div class="member">
+				<div class="photo">
+					<h1>PHOTO</h1>
+				</div>
+				<div class="info">
+					<h1 class="info-title">Karen<br>Khachatryan</h1>
+					<p class="info-spec">front-end</p>
+				</div>
+			</div>
+			<div class="member-left">
+				<div class="info">
+					<h1 class="info-title">Nikita<br>Shkatulin</h1>
+					<p class="info-spec">data base</p>
+				</div>
+				<div class="photo-left">
+					<h1>PHOTO</h1>
+				</div>
+			</div>
+			<div class="member">
+				<div class="photo">
+					<h1>PHOTO</h1>
+				</div>
+				<div class="info">
+					<h1 class="info-title">Alexey<br>Ryumkin</h1>
+					<p class="info-spec">back-end</p>
+				</div>
+			</div>
+			<div class="member-left">
+				<div class="info">
+					<h1 class="info-title">Vadim<br>Breev</h1>
+					<p class="info-spec">math-logic</p>
+				</div>
+				<div class="photo-left">
+					<h1>PHOTO</h1>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>

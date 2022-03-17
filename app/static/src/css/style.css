@@ -114,3 +114,70 @@ hr {
     padding-right: 120px;
     padding-bottom: 25px;
 }
+
+.team-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+.member {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(152, 201, 220, 0.5);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 45px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.member-left {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(152, 201, 220, 0.5);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 45px;
+    border-radius: 10px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info-title {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.info-spec {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.photo {
+    color: #000;
+    text-align: center;
+    width: 220px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 55px;
+}
+
+.photo-left {
+    color: #000;
+    text-align: center;
+    width: 220px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 55px;
+}
