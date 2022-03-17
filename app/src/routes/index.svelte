@@ -14,7 +14,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a href="">Team</a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="">Get Started</a>
+					<a href="/work">Get Started</a>
 				</div>
 			</div>
 			<hr>
