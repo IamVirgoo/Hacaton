@@ -12,6 +12,7 @@
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "saos": "^1.2.0",
+    "sass": "^1.49.9",
     "svelte": "^3.46.0"
   },
   "type": "module",
