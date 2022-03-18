@@ -43,14 +43,19 @@
     </div>
 </section>
 <section>
-    
+    {#if !ready}
     <div class="stat-menu">
         <div class="stat-bar"></div>
         <h1 class="stat-bar-title">76% completed</h1>
     </div>
+    {/if }
+        
     <div class="result">
         <div class="result-menu">
             <h1 class="result-title">В ближайшее время,<br>на основе загруженной базы<br>данных, выбранный вами<br>товар будет стоит <strong>[price]$</strong></h1>
         </div>
     </div>
 </section>
+<script>
+    let ready = true;
+</script>
