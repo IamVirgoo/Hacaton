@@ -8,7 +8,7 @@
 	<div class="container">
 		<header>
 			<div class="content">
-				<img src="/static/logo.svg" alt="">
+				<img class="logo" src="/static/logo.png" alt="">
 				<h1 class="header-title">CPP Segmentation<br>error</h1>	
 				<div class="nav">
 					<!-- svelte-ignore a11y-invalid-attribute -->
@@ -27,26 +27,24 @@
 			<div class="about">
 				<h1 class="about-title">About Us</h1>
 				<div class="about-description">
-					<div class="description-logo"></div>
+					<img class="description-logo" src="./static/full-logo.png" alt="">
 					<p class="description-text">Lorem ipsum dolor sit amet,<br>consectetuer adipiscing elit<br>Aenean commodo ligula eget<br>dolor. Aenean massa. Cum sociis<br>natoque penatibus etLorem<br>ipsum dolor sit amet,<br>consectetuer adipiscing elit.<br>Aenean commodo ligula eget<br>dolor. Aenean massa.</p>
 				</div>
 			</div>
 		</div>
 		<div class="content-box">
-            <h1 class="content-box-title">Попробуйте наш новый сервис</h1>
-            <h2 class="content-box-second-title">Специально для бизнесса</h2>
-            <!-- svelte-ignore a11y-invalid-attribute -->
-            <a class="content-box-btn" href="">Try it!</a>
-        </div>
+			<h1 class="content-box-title">Попробуйте наш новый сервис</h1>
+			<h2 class="content-box-second-title">Специально для бизнесса</h2>
+			<!-- svelte-ignore a11y-invalid-attribute -->
+			<a class="content-box-btn" href="">Try it!</a>
+		</div>
 	</div>
 </section>
 <section>
 	<div class="container">
 		<div class="team-content">
 			<div class="member">
-				<div class="photo">
-					<h1>PHOTO</h1>
-				</div>
+				<img class="photo" src="./static/karen.jpg" alt="">
 				<div class="info">
 					<h1 class="info-title">Karen<br>Khachatryan</h1>
 					<p class="info-spec">front-end</p>
@@ -57,14 +55,10 @@
 					<h1 class="info-title">Nikita<br>Shkatulin</h1>
 					<p class="info-spec">data base</p>
 				</div>
-				<div class="photo-left">
-					<h1>PHOTO</h1>
-				</div>
+				<img class="photo-left" src="./static/bashka.jpg" alt="">
 			</div>
 			<div class="member">
-				<div class="photo">
-					<h1>PHOTO</h1>
-				</div>
+				<img class="photo" src="./static/alexey.jpg" alt="">
 				<div class="info">
 					<h1 class="info-title">Alexey<br>Ryumkin</h1>
 					<p class="info-spec">back-end</p>
@@ -75,9 +69,7 @@
 					<h1 class="info-title">Vadim<br>Breev</h1>
 					<p class="info-spec">math-logic</p>
 				</div>
-				<div class="photo-left">
-					<h1>PHOTO</h1>
-				</div>
+				<img class="photo-left" src="./static/vadya.jpg" alt="">
 			</div>
 		</div>
 	</div>

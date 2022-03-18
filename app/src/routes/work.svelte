@@ -8,7 +8,7 @@
 	<div class="container">
 		<header>
 			<div class="content">
-				<img src="/static/logo.svg" alt="">
+				<img class="logo" src="/static/logo.png" alt="">
 				<h1 class="header-title">CPP Segmentation<br>error</h1>	
 				<div class="nav">
 					<!-- svelte-ignore a11y-invalid-attribute -->

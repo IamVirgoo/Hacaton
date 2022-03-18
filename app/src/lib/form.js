@@ -6,7 +6,7 @@ export function enhance(form, { pending, error, result } = {}) {
 	let current_token;
 
 	async function handle_submit(e) {
-		const token = (current_token = {});
+		const token = (current_token = {})
 
 		e.preventDefault();
 
