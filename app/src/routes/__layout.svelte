@@ -6,7 +6,7 @@
         <p class="title">CPP segmentation error</p>
         <div class="nav--links">
             <a href="/service">Service</a>
-            <a href="/">Docs</a>
+            <a href="/docs">Docs</a>
         </div>
     </container>
 </header>
