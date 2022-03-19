@@ -3,12 +3,10 @@
         <a class="nav--logo-wrap" href="/">
             <img class="nav--logo" src="src/img/logo.png" alt="">
         </a>
-        <p>CPP segmentation error</p>
+        <p class="title">CPP segmentation error</p>
         <div class="nav--links">
             <a href="/service">Service</a>
-            <a href="/">Text</a>
-            <a href="/">Text</a>
-            <a href="/">Text</a>
+            <a href="/">Docs</a>
         </div>
     </container>
 </header>
