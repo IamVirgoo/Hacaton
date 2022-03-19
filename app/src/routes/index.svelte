@@ -14,7 +14,7 @@
                 <img src="./static/src/img/logo.png" alt="">
             </div>
             <div class="right">
-                <p class="container-description">Lorem ipsum dolor sit amet,<br>consectetuer adipiscing elit.<br>Aenean commodo ligula eget<br>dolor. Aenean massa. Cum sociis<br>natoque penatibus etLorem<br>ipsum dolor sit amet,<br>consectetuer adipiscing elit.<br>Aenean commodo ligula eget<br>dolor. Aenean massa.</p>
+                <p class="container-description">Мы, Cpp segmentation error -<br>молодая команда из Липецка,<br>которая стремится довести до<br>совершенства свои<br>профессиональные навыки.<br>Здесь мы представим вам наше<br>решение для хакатона<br>"Что найдёт Сервер?" от компании<br>Северсталь. Далее вы можете<br>просмотреть нашу реализацию<br>кейса 'Мониторинг цен'.</p>
             </div>
         </div>
     </container>
