@@ -67,3 +67,6 @@
         </div>
     </div>
 </section>
+<script>
+    let prices = fetch('hhtps://dolar-api.heroku.com/api/v1/testify')
+</script>
