@@ -59,6 +59,15 @@
                 <p class="description-center">Во втором полугодии, на<br>основе загруженной базы<br>данных, выбранный вами<br>товар будет стоить [price]</p>
                 <div class="icons">
                     <img src="./static/src/svg/dollar.svg" alt="">
+                    <p>
+                        {#if updated}
+                            {#each prices['ctn'] as elem}
+                                {#if elem['nm'] == selected}
+                                    {elem['pr'] / prices['usd']}
+                                {/if}
+                            {/each}
+                        {/if}
+                    </p>
                     <img src="./static/src/svg/ruble.svg" alt="">
                     <p>
                         {#if updated}
@@ -70,12 +79,30 @@
                         {/if}
                     </p>
                     <img src="./static/src/svg/euro.svg" alt="">
+                    <p>
+                        {#if updated}
+                            {#each prices['ctn'] as elem}
+                                {#if elem['nm'] == selected}
+                                    {elem['pr'] / prices['eur']}
+                                {/if}
+                            {/each}
+                        {/if}
+                    </p>
                 </div>
             </div>
             <div class="res-right">
                 <p class="description-right">В ближайший год, на<br>основе загруженной базы<br>данных, выбранный вами<br>товар будет стоить [price]</p>
                 <div class="icons">
                     <img src="./static/src/svg/dollar.svg" alt="">
+                    <p>
+                        {#if updated}
+                            {#each prices['ctn'] as elem}
+                                {#if elem['nm'] == selected}
+                                    {elem['pr'] / prices['usd']}
+                                {/if}
+                            {/each}
+                        {/if}
+                    </p>
                     <img src="./static/src/svg/ruble.svg" alt="">
                     <p>
                         {#if updated}
@@ -87,6 +114,15 @@
                         {/if}
                     </p>
                     <img src="./static/src/svg/euro.svg" alt="">
+                    <p>
+                        {#if updated}
+                            {#each prices['ctn'] as elem}
+                                {#if elem['nm'] == selected}
+                                    {elem['pr'] / prices['eur']}
+                                {/if}
+                            {/each}
+                        {/if}
+                    </p>
                 </div>
             </div>
         </div>
