@@ -2,7 +2,7 @@
     <container>
         <h1 class="container-heading">Попробуйте наш новый сервис</h1>
         <p class="container-description">Специально для бизнесса</p>
-        <a href="/service" class="btn">Try It!</a>
+        <a href="/service" class="btn">Попробовать</a>
     </container>
 </section>
 
