@@ -11,8 +11,8 @@
         <h2>Enter the link</h2>
         <p>Description that swe need to wait</p>
         <div class="btn--wrap">
-            <input type="input" id="" placeholder="https://www.google.ru/sheets">
-            <button type="submit">Подтвердить</button>
+            <input type="input" id="" placeholder="https://www.google.ru/sheets" bind:value={file}>
+            <button type="submit" on:click={update}>Подтвердить</button>
         </div>
     </div>
 </section>
@@ -22,16 +22,14 @@
         <h2>Choose the name of product</h2>
         <p>Description that swe need to wait</p>
         <div class="btn--wrap">
-            <select type="input" id="">
-                <option value="">first</option>
-                <option value="">second</option>
-                <option value="">third</option>
-                <option value="">fourth</option>
-                <option value="">fiveth</option>
-                <option value="">sixth</option>
-                <option value="">seventh</option>
-            </select>
-            <button type="submit">Подтвердить</button>
+                {#if updated}
+                    <select type="input" id="" bind:value="{selected}">
+                    {#each prices['ctn'] as elem}
+                        <option name="{elem['nm']}" id="{elem['nm']}">{elem['nm']}</option>
+                    {/each}
+                    </select>
+                {/if}
+
         </div>
     </div>
 </section>
@@ -44,7 +42,16 @@
                 <p class="description-left">В первое полугодие, на<br>основе загруженной базы<br>данных, выбранный вами<br>товар будет стоить [price]</p>
                 <div class="icons">
                     <img src="./static/src/svg/dollar.svg" alt="">
-                    <img src="./static/src/svg/ruble.svg" alt="">
+                    <img src="./static/src/svg/ruble.svg" alt=""> 
+                    <p>
+                        {#if updated}
+                            {#each prices['ctn'] as elem}
+                                {#if elem['nm'] == selected}
+                                    {elem['pr']}
+                                {/if}
+                            {/each}
+                        {/if}
+                    </p>
                     <img src="./static/src/svg/euro.svg" alt="">
                 </div>
             </div>
@@ -53,6 +60,15 @@
                 <div class="icons">
                     <img src="./static/src/svg/dollar.svg" alt="">
                     <img src="./static/src/svg/ruble.svg" alt="">
+                    <p>
+                        {#if updated}
+                            {#each prices['ctn'] as elem}
+                                {#if elem['nm'] == selected}
+                                    {elem['pr']}
+                                {/if}
+                            {/each}
+                        {/if}
+                    </p>
                     <img src="./static/src/svg/euro.svg" alt="">
                 </div>
             </div>
@@ -61,6 +77,15 @@
                 <div class="icons">
                     <img src="./static/src/svg/dollar.svg" alt="">
                     <img src="./static/src/svg/ruble.svg" alt="">
+                    <p>
+                        {#if updated}
+                            {#each prices['ctn'] as elem}
+                                {#if elem['nm'] == selected}
+                                    {elem['pr']}
+                                {/if}
+                            {/each}
+                        {/if}
+                    </p>
                     <img src="./static/src/svg/euro.svg" alt="">
                 </div>
             </div>
@@ -68,5 +93,21 @@
     </div>
 </section>
 <script>
-    let prices = fetch('hhtps://dolar-api.heroku.com/api/v1/testify')
+    let file
+    let prices
+    let updated = false
+    let selected = ""
+    function update() {
+        var request = new Request('https://dollar-api-application.herokuapp.com/api/v1/' +  file);
+        fetch(request)
+            .then((resp) => resp.json())
+            .then((data) => {
+                prices = data;
+            })
+            .then(() => {
+                console.log("Getted!");
+                console.log(prices['ctn'])
+                updated = true
+            });
+    }
 </script>
